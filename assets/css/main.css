@@ -2568,7 +2568,7 @@ a:hover, a:visited, a:link, a:active
         }
 
         header.major {
-            margin-bottom: 4em;
+            margin-bottom: 1em;
         }
 
         @media screen and (max-width: 1280px) {
@@ -2705,7 +2705,7 @@ a:hover, a:visited, a:link, a:active
         -webkit-justify-content: center;
         -ms-justify-content: center;
         justify-content: center;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     .feature {
@@ -2759,7 +2759,7 @@ a:hover, a:visited, a:link, a:active
 /* Wrapper */
 
     .wrapper {
-        padding: 6em 0 4em 0;
+        padding: 1.5em 0 1em 0;
         position: relative;
     }
 
@@ -3648,12 +3648,14 @@ a:hover, a:visited, a:link, a:active
         #banner p {
             font-size: 1.5em;
             text-transform: uppercase;
+            padding-left: 5em;
+            padding-right: 5em;
         }
 
         @media screen and (max-width: 1680px) {
 
             #banner {
-                padding: 8em 0 6em 0;
+                padding: 3em 0 2em 0;
             }
 
         }
